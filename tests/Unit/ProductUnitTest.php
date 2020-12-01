@@ -19,4 +19,12 @@ class ProductUnitTest extends TestCase
 
         $this->assertEquals($delivery->name, $product->delivery->first()->name);
     }
+
+    /** @test */
+    public function a_product_has_a_path()
+    {
+        $product = Product::factory()->create();
+
+        $this->assertEquals('/products/1', $product->path());
+    }
 }

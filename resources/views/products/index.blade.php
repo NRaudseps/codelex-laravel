@@ -1,7 +1,8 @@
 <h1>Hello</h1>
+<a href="/products/create">Create New Product</a>
 @foreach($products as $product)
     <ul>
-        <li><h3>Name: {{ $product->name }}</h3></li>
+        <li><a href="/products/{{ $product->id }}"><h3>Name: {{ $product->name }}</h3></a></li>
 
     </ul>
     <div style="margin-left: 50px;">

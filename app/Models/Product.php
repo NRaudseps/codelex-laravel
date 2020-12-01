@@ -13,8 +13,15 @@ class Product extends Model
         'price' => 'integer'
     ];
 
+    protected $guarded = [];
+
     public function delivery()
     {
         return $this->hasMany(Delivery::class, 'size', 'size');
+    }
+
+    public function path()
+    {
+        return '/products/' . $this->id;
     }
 }
