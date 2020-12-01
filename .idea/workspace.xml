@@ -5,7 +5,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92135741-82e2-4b71-b46d-25f9f621e9d4" name="Default Changelist" comment="failed attempt" />
+    <list default="true" id="92135741-82e2-4b71-b46d-25f9f621e9d4" name="Default Changelist" comment="failed attempt">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" />
+    </list>
     <list id="80d26381-0aaa-4030-8b03-07a3df87a7ef" name="Revert &quot;initialized empty laravel project&quot;" comment="Revert &quot;initialized empty laravel project&quot;&#10;&#10;This reverts commit 49f3b100" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
@@ -145,33 +157,38 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="PHPUnit.ProductTest.products_appear_on_a_page">
-    <configuration name="ExampleTest.one_can_see_products_on_the_dashboard" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ExampleTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ProductTest.php" method="one_can_see_products_on_the_dashboard" scope="Method" />
+  <component name="RunManager" selected="PHPUnit.tests">
+    <configuration name="ProductFeatureTest.a_user_can_see_multiple_product_delivery_choices" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ProductFeatureTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ProductFeatureTest.php" method="a_user_can_see_multiple_product_delivery_choices" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ProductTest.one_can_see_products_on_the_dashboard" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ProductTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ProductTest.php" method="one_can_see_products_on_the_dashboard" scope="Method" />
+    <configuration name="ProductFeatureTest.a_user_can_see_product_delivery_choices" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ProductFeatureTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ProductFeatureTest.php" method="a_user_can_see_product_delivery_choices" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ProductTest.products_appear_on_a_page" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ProductTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ProductTest.php" method="products_appear_on_a_page" scope="Method" />
+    <configuration name="ProductTest.a_product_has_deliveries" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\ProductTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/ProductUnitTest.php" method="a_product_has_deliveries" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ProductTest.products_can_only_be_of_some_size" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ProductTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ProductTest.php" method="products_can_only_be_of_some_size" scope="Method" />
+    <configuration name="ProductTest.a_user_can_see_product_delivery_choices" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ProductTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ProductFeatureTest.php" method="a_user_can_see_product_delivery_choices" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" directory="$PROJECT_DIR$/tests" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.ProductTest.products_appear_on_a_page" />
-        <item itemvalue="PHPUnit.ProductTest.products_can_only_be_of_some_size" />
-        <item itemvalue="PHPUnit.ProductTest.one_can_see_products_on_the_dashboard" />
-        <item itemvalue="PHPUnit.ExampleTest.one_can_see_products_on_the_dashboard" />
+        <item itemvalue="PHPUnit.tests" />
+        <item itemvalue="PHPUnit.ProductFeatureTest.a_user_can_see_product_delivery_choices" />
+        <item itemvalue="PHPUnit.ProductFeatureTest.a_user_can_see_multiple_product_delivery_choices" />
+        <item itemvalue="PHPUnit.ProductTest.a_user_can_see_product_delivery_choices" />
+        <item itemvalue="PHPUnit.ProductTest.a_product_has_deliveries" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +201,9 @@
       <option name="presentableId" value="Default" />
       <updated>1606724175594</updated>
       <workItem from="1606724176689" duration="543000" />
-      <workItem from="1606724741398" duration="5939000" />
+      <workItem from="1606724741398" duration="12407000" />
+      <workItem from="1606808682758" duration="632000" />
+      <workItem from="1606809812447" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="failed attempt">
       <created>1606732468837</created>
@@ -255,34 +274,54 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="591" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606724837229" />
-    <state x="628" y="46" width="717" height="1028" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606732718670">
+    <state x="172" y="127" width="1648" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1606735998197">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="628" y="46" width="717" height="1028" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606732718670" />
+    <state x="172" y="127" width="1648" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606735998197" />
+    <state x="628" y="46" width="717" height="1028" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606736829920">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="628" y="46" width="717" height="1028" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606736829920" />
     <state x="506" y="27" width="969" height="1053" key="CommitChangelistDialog2" timestamp="1606732527995">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="506" y="27" width="969" height="1053" key="CommitChangelistDialog2/72.27.1848.1053@72.27.1848.1053" timestamp="1606732527995" />
-    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606733203699">
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606809832345">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1606733203699" />
-    <state width="1848" height="295" key="GridCell.Tab.0.bottom" timestamp="1606732965973">
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1606809832345" />
+    <state width="1848" height="295" key="GridCell.Tab.0.bottom" timestamp="1606742480952">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1848" height="295" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1606732965973" />
-    <state width="1848" height="295" key="GridCell.Tab.0.center" timestamp="1606732965971">
+    <state width="1848" height="295" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1606742480952" />
+    <state width="1848" height="295" key="GridCell.Tab.0.center" timestamp="1606742480951">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1848" height="295" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1606732965971" />
-    <state width="1848" height="295" key="GridCell.Tab.0.left" timestamp="1606732965969">
+    <state width="1848" height="295" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1606742480951" />
+    <state width="1848" height="295" key="GridCell.Tab.0.left" timestamp="1606742480950">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1848" height="295" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1606732965969" />
-    <state width="1848" height="295" key="GridCell.Tab.0.right" timestamp="1606732965972">
+    <state width="1848" height="295" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1606742480950" />
+    <state width="1848" height="295" key="GridCell.Tab.0.right" timestamp="1606742480951">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1848" height="295" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1606732965972" />
+    <state width="1848" height="295" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1606742480951" />
+    <state width="1848" height="364" key="GridCell.Tab.1.bottom" timestamp="1606733716162">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1848" height="364" key="GridCell.Tab.1.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1606733716162" />
+    <state width="1848" height="364" key="GridCell.Tab.1.center" timestamp="1606733716161">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1848" height="364" key="GridCell.Tab.1.center/72.27.1848.1053@72.27.1848.1053" timestamp="1606733716161" />
+    <state width="1848" height="364" key="GridCell.Tab.1.left" timestamp="1606733716161">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1848" height="364" key="GridCell.Tab.1.left/72.27.1848.1053@72.27.1848.1053" timestamp="1606733716161" />
+    <state width="1848" height="364" key="GridCell.Tab.1.right" timestamp="1606733716161">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1848" height="364" key="GridCell.Tab.1.right/72.27.1848.1053@72.27.1848.1053" timestamp="1606733716161" />
     <state x="247" y="121" width="1478" height="879" key="MergeDialog" timestamp="1606732500621">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -291,13 +330,17 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="628" y="308" width="726" height="497" key="MultipleFileMergeDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606732514830" />
-    <state x="848" y="347" width="362" height="420" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1606724855034">
+    <state x="848" y="347" width="362" height="427" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1606734353853">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="848" y="347" width="362" height="420" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/72.27.1848.1053@72.27.1848.1053" timestamp="1606724855034" />
-    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1606733139213">
+    <state x="848" y="347" width="362" height="427" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/72.27.1848.1053@72.27.1848.1053" timestamp="1606734353853" />
+    <state x="870" y="409" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1606736578684">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1606733139213" />
+    <state x="870" y="409" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/72.27.1848.1053@72.27.1848.1053" timestamp="1606736578684" />
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1606741637866">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1606741637866" />
   </component>
 </project>
